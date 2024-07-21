@@ -13,8 +13,6 @@ struct StartButtonView: View {
 
     // MARK: - Body
 
-    // MARK: - <# Any #>
-
     var body: some View {
         Button {
             print("tap")
