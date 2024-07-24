@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8ADD4CF72C50683900ADE74E /* SouceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */; };
 		8AEDAB6F2C3F436700485003 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAB6E2C3F436700485003 /* FructusApp.swift */; };
 		8AEDAB712C3F436700485003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAB702C3F436700485003 /* ContentView.swift */; };
 		8AEDAB732C3F436A00485003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAB722C3F436A00485003 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouceLinkView.swift; sourceTree = "<group>"; };
 		8AEDAB6B2C3F436700485003 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDAB6E2C3F436700485003 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		8AEDAB702C3F436700485003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				8AEDAB8A2C4DC26800485003 /* FruitRowView.swift */,
 				8AEDAB8C2C4F11CA00485003 /* FruitDetailView.swift */,
 				8AEDAB8E2C4F158500485003 /* FruitHeaderView.swift */,
+				8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				8AEDAB892C47D85900485003 /* FruitData.swift in Sources */,
 				8AEDAB7F2C45286D00485003 /* FruitCardView.swift in Sources */,
 				8AEDAB8B2C4DC26800485003 /* FruitRowView.swift in Sources */,
+				8ADD4CF72C50683900ADE74E /* SouceLinkView.swift in Sources */,
 				8AEDAB812C45D61E00485003 /* StartButtonView.swift in Sources */,
 				8AEDAB8D2C4F11CA00485003 /* FruitDetailView.swift in Sources */,
 				8AEDAB712C3F436700485003 /* ContentView.swift in Sources */,
