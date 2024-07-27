@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8ADD4CF72C50683900ADE74E /* SouceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */; };
+		8ADD4CF92C53454D00ADE74E /* FruitNutritrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD4CF82C53454D00ADE74E /* FruitNutritrientsView.swift */; };
 		8AEDAB6F2C3F436700485003 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAB6E2C3F436700485003 /* FructusApp.swift */; };
 		8AEDAB712C3F436700485003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEDAB702C3F436700485003 /* ContentView.swift */; };
 		8AEDAB732C3F436A00485003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEDAB722C3F436A00485003 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouceLinkView.swift; sourceTree = "<group>"; };
+		8ADD4CF82C53454D00ADE74E /* FruitNutritrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutritrientsView.swift; sourceTree = "<group>"; };
 		8AEDAB6B2C3F436700485003 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEDAB6E2C3F436700485003 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		8AEDAB702C3F436700485003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				8AEDAB8C2C4F11CA00485003 /* FruitDetailView.swift */,
 				8AEDAB8E2C4F158500485003 /* FruitHeaderView.swift */,
 				8ADD4CF62C50683900ADE74E /* SouceLinkView.swift */,
+				8ADD4CF82C53454D00ADE74E /* FruitNutritrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				8AEDAB8F2C4F158500485003 /* FruitHeaderView.swift in Sources */,
 				8AEDAB832C45DA2E00485003 /* OnboardingView.swift in Sources */,
 				8AEDAB862C45DC2800485003 /* FruitModel.swift in Sources */,
+				8ADD4CF92C53454D00ADE74E /* FruitNutritrientsView.swift in Sources */,
 				8AEDAB6F2C3F436700485003 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
