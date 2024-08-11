@@ -25,6 +25,7 @@ struct ContentView: View {
                     }
                 }
             }
+//            .listStyle(.plain)
             .navigationTitle("fruits")
         }// Navigation
     }
