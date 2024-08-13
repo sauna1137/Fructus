@@ -8,8 +8,50 @@
 import SwiftUI
 
 struct SettingView: View {
+
+    @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 20) {
+                    // MARK: - Section1
+
+                    GroupBox(
+                        label:
+                                SettingLabelView(labelText: "Fructus", labelImage: "info.circle")
+                        )
+                    {
+                        Divider().padding(.vertical, 4)
+
+                        HStack(alignment: .center, spacing: 10) {
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .clipShape(RoundedRectangle(cornerRadius: 9))
+
+                            Text("Most furits are naturally low in fat, sodium and much more")
+                                .font(.footnote)
+
+                        }
+                    }
+
+                    // MARK: - Section2
+
+                    // MARK: - Section3
+                }
+                .navigationTitle("Settings")
+                .navigationBarItems(trailing:
+                                        Button(action: {
+                    presentationMode.wrappedValue.dismiss()
+                }, label: {
+                    Image(systemName: "xmark")
+                })
+                )
+                .padding()
+            } // scroll
+        }// nav
     }
 }
 
