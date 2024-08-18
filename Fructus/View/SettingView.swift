@@ -40,6 +40,17 @@ struct SettingView: View {
                     // MARK: - Section2
 
                     // MARK: - Section3
+
+                    GroupBox(label: SettingLabelView(labelText: "Application", labelImage: "apps.iphone")) {
+                        Divider().padding(.vertical, 4)
+
+                        HStack {
+                            Text("Developer").foregroundStyle(.gray)
+                            Spacer()
+                            Text("John / Jane")
+                        }
+                    }
+
                 }
                 .navigationTitle("Settings")
                 .navigationBarItems(trailing:
@@ -58,3 +69,6 @@ struct SettingView: View {
 #Preview {
     SettingView()
 }
+
+
+
