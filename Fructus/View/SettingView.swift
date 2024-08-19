@@ -44,11 +44,9 @@ struct SettingView: View {
                     GroupBox(label: SettingLabelView(labelText: "Application", labelImage: "apps.iphone")) {
                         Divider().padding(.vertical, 4)
 
-                        HStack {
-                            Text("Developer").foregroundStyle(.gray)
-                            Spacer()
-                            Text("John / Jane")
-                        }
+                        SettingRowView(name: "Developer", content: "John / Jane")
+                        SettingRowView(name: "Designer", content: "Robert Peters")
+
                     }
 
                 }
