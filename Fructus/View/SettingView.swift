@@ -19,8 +19,8 @@ struct SettingView: View {
 
                     GroupBox(
                         label:
-                                SettingLabelView(labelText: "Fructus", labelImage: "info.circle")
-                        )
+                            SettingLabelView(labelText: "Fructus", labelImage: "info.circle")
+                    )
                     {
                         Divider().padding(.vertical, 4)
 
@@ -33,7 +33,6 @@ struct SettingView: View {
 
                             Text("Most furits are naturally low in fat, sodium and much more")
                                 .font(.footnote)
-
                         }
                     }
 
@@ -42,11 +41,14 @@ struct SettingView: View {
                     // MARK: - Section3
 
                     GroupBox(label: SettingLabelView(labelText: "Application", labelImage: "apps.iphone")) {
-                        Divider().padding(.vertical, 4)
 
                         SettingRowView(name: "Developer", content: "John / Jane")
                         SettingRowView(name: "Designer", content: "Robert Peters")
-
+                        SettingRowView(name: "Compability", content: "iOS14")
+                        SettingRowView(name: "Website", content: "SwiftUI Master Class", linkDestination: "swiftuimasterclass.com")
+                        SettingRowView(name: "X", content: "@RobertPeters", linkDestination: "twitter.com/robertpeters")
+                        SettingRowView(name: "SwiftUI", content: "2.0")
+                        SettingRowView(name: "Version", content: "1.1.0")
                     }
 
                 }
