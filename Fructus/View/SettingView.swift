@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingView: View {
 
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("isOnboarding") var isOnboarding = false
 
     var body: some View {
         NavigationView {
@@ -37,6 +38,27 @@ struct SettingView: View {
                     }
 
                     // MARK: - Section2
+
+                    GroupBox(label: SettingLabelView(labelText: "Customization", labelImage: "paintbrush")) {
+                        Divider().padding(.vertical, 4)
+
+                        Text("Most furits are naturally low in fat, sodium and much moreMost furits are naturally low in fat, sodium and much more")
+                            .padding(.vertical, 8)
+                            .frame(minHeight: 60)
+                            .layoutPriority(1)
+                            .font(.footnote)
+                            .multilineTextAlignment(.leading)
+
+                        Toggle(isOn: $isOnboarding) {
+                            Text("restart".uppercased())
+                        }
+                        .padding()
+                        .background(
+                            Color(UIColor.tertiarySystemBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 8))
+                        )
+
+                    }
 
                     // MARK: - Section3
 
