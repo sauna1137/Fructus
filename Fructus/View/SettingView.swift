@@ -50,7 +50,16 @@ struct SettingView: View {
                             .multilineTextAlignment(.leading)
 
                         Toggle(isOn: $isOnboarding) {
-                            Text("restart".uppercased())
+                            if isOnboarding {
+                                Text("restarted".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(.green)
+                            } else {
+                                Text("restart".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(.secondary)
+                            }
+
                         }
                         .padding()
                         .background(
